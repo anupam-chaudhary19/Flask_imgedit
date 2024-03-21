@@ -1,38 +1,34 @@
-#Image Editor Application
+# <b>Image Editor Application</b>
 
 <b>Introduction</b>
 Welcome to the Image Editor application! This application allows you to perform various image processing tasks such as conversion to different formats (JPG, PNG), creating webpages from images, and converting images to grayscale. It is built using Flask with Python and utilizes the OpenCV library for image processing functionalities.
 
 <b>Technologies Used</b>
-Flask
-Python
-OpenCV
-Features
-Image Format Conversion: Convert images between JPG and PNG formats.
-Webpage Creation: Generate webpages from images.
-Grayscale Conversion: Convert images to grayscale.
-Setup Instructions
+- Flask
+- Python
+- OpenCV
+
+## Features
+- **Image Format Conversion:** Convert images between JPG and PNG formats.
+- **Webpage Creation:** Generate webpages from images.
+- **Grayscale Conversion:** Convert images to grayscale.
+
+## Setup Instructions
 To run the Image Editor application on your local machine, follow these steps:
 
 <b>Clone Repository:</b>
-
-bash
-Copy code
+```bash
 git clone https://github.com/your/repository.git
-Navigate to Repository:
 
-bash
-Copy code
+
+<b>Navigate to Repository:</b>
 cd repository-name
-Install Dependencies:
-
-Copy code
+<b>Install Dependencies:</b>
 pip install -r requirements.txt
-Run the Application:
+<b>Run the Application:</b>
+Flask run
 
-Copy code
-python app.py
-Access the Application:
+<b>Access the Application:</b>
 Open a web browser and go to http://localhost:5000.
 
 Usage
@@ -59,9 +55,3 @@ Acknowledgements
 Flask: https://flask.palletsprojects.com/
 OpenCV: https://opencv.org/
 Feel free to contribute to this project by forking it and creating pull requests! If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository. Happy editing! 🖼️🎨
-
-
-
-
-
-
